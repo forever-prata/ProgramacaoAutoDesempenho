@@ -25,7 +25,7 @@ class Carro extends Thread {
                 int chance = random.nextInt(100);
 
                 if (chance < 2) {
-                    System.out.println(nome + " teve problemas técnicos e abandonou a corrida!");
+                    System.out.println(nome + " teve problemas tÃ©cnicos e abandonou a corrida!");
                     return;
                 } else if (chance < 7) {
                     System.out.println(nome + " entrou nos boxes (velocidade reduzida a 5 m/s)");
